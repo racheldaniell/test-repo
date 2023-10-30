@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Kitten Article</title>
+
+	<!-- font call to googlefonts api here -->
+	<!-- then add to your CSS -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Permanent+Marker&family=Press+Start+2P&family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,500&family=Source+Sans+Pro:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+	<!-- links are self-closing tags -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<!-- ADDING the nav bar element here -->
+	<!-- menu items can be set up as UL lists; hamburger needs icon and more CSS -->
+	<!-- ADDED code here to demo UL list setup - see CSS for flexbox here -->
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Home</a> </li>
+			<li><a href="data-page.html">Data About Kitten</a> </li>
+			<li><a href="adventure-page.html">Further Adventures</a> </li>
+            <li ><a href="dream-page.html" id="special-item">Kitten's Dreams</a> </li>
+		</ul>
+	</nav>
+
+	<!-- end of nav bar add -->
+
+	<h1>Kitten Story - A Journey in Words and Pictures</h1>
+	<main>
+	<section>
+		<h2>Introduction to Kitten</h2>
+		<p>This is a story about Kitten, who has led a fascinating feline life. The story begins with an overview of a typical day for Kitten. Then the article goes on to provide some visual artifacts and research data about Kitten, as well as excerpts from qualitative interviews held with Kitten over several sessions.</p>
+	</section>
+	<!--- ADDED HTML attribute classes here for flex class 07 and 08 -->
+
+	<section>
+	<h2 class="image-gallery" class="sticky">Image Gallery of the Kitten's Life</h2>
+
+	 <section class="graphics-section">
+
+		
+		<figure class="portfolio-hover">
+			<img src="http://placekitten.com/400/305" alt="A photo of kitten">
+			<figcaption>A portrait of Kitten's early years from <a href="https://placekitten.com/" target="_blank">PlaceKitten</a>.</figcaption>
+			<div class="portfolio-overlay" id="portr-01"><p class="overlay-text">Some further notes on this time period of Kitten's life.</p></div>
+		</figure>
+
+		<figure class="portfolio-hover">
+			<img src="http://placekitten.com/400/301" alt="Another photo of  kitten">
+			<figcaption>Picture of Kitten looking thoughtful taken by cuteness paparazzi more recently.</figcaption>
+			<div class="portfolio-overlay" id="portr-02"><p class="overlay-text">More information about this picture in the context of Kitten's life story.</p>
+			</div>
+		</figure>
+		
+		<figure class="portfolio-hover">
+			<img src="http://placekitten.com/400/303" alt="A photo of kitten">
+			<figcaption>Another photo from early times. <a href="https://placekitten.com/" target="_blank">PlaceKitten</a>.</figcaption>
+			<div class="portfolio-overlay" id="portr-03"><p class="overlay-text">And overlay text about the image for image 3.</p>
+			</div>
+		</figure>
+		
+		<figure class="portfolio-hover">
+			<img src="http://placekitten.com/400/304" alt="Another photo of  kitten">
+			<figcaption>Picture of Kitten.</figcaption>
+			<div class="portfolio-overlay" id="portr-04"><p class="overlay-text">One last overlay text block for display on hover on image 4.</p>
+			</div>
+		</figure>
+	 </section>
+	</section>
+
+	</main>
+	<footer>
+		<hr>
+		<strong>&copy; 2023 - Article by: Kitten Patrol Research Collective</strong>
+	</footer>
+	<!-- a <script> tag with reference to our main.js will go here next week-->
+</body>
+</html>

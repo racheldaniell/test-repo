@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Kitten Article</title>
+
+	<!-- font call to googlefonts api here -->
+	<!-- then add to your CSS -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Permanent+Marker&family=Press+Start+2P&family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,500&family=Source+Sans+Pro:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+	<!-- links are self-closing tags -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<!-- the nav bar element here -->
+
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Home</a> </li>
+			<li><a href="data-page.html">Data About Kitten</a> </li>
+			<li><a href="adventure-page.html">Further Adventures</a> </li>
+            <li><a href="dream-page.html">Kitten's Dreams</a> </li>
+		</ul>
+	</nav>
+
+	<!-- end of nav bar add -->
+
+	<h1>Kitten Story - A Journey in Words and Pictures</h1>
+	<main>
+
+	<!--- ADDED class here -->
+
+	<section class="documentation">
+
+		<h2 class="image-gallery">Documentation of Kitten's Further Adventures</h2>
+
+		<!-- ADDED wrapping <div> around BOTH video and text descriptor here-->
+
+		<div class="documentation-row-01">
+
+			<!-- video embed here -->
+			<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6qre61opE_g?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			<!-- ADDED new <div> and text here to go next to image-->
+			<div class="descriptor"><p>Here I have some notes about the context of this video and what was going on in Kitten's life at the time. Many interesting tidbits here musing on Kitten as Boxing Champ.</p></div>
+		</div>
+		
+
+		<!-- ADDED wrapping <div> around BOTH image and text descriptor here-->
+
+		<div class="documentation-row-02">
+			<figure>
+				<a href="https://www.loc.gov/resource/ppmsca.51533/" target="blank"><img src="images/kitten-brunnhilde-1936-loc.jpg" alt="Photograph shows a cat wearing a winged helmet and breastplate armor in the role of the valkyrie Brünnhilde from the opera Der Ring des Niebelungen."></a>
+				<figcaption>Kitten as "Brunnehilde" circa 1936 | courtesy <a href="https://www.loc.gov/">Library of Congress</a>.</figcaption>
+			</figure>
+			<!-- ADDED new <div> and text here to go next to image-->
+			<div class="descriptor"><p>Here I have some notes about the this photo and the Kitten's hijinks.</p></div>
+		</div>
+
+	</section>
+	
+	</main>
+	<footer>
+		<hr>
+		<strong>Article by: Kitten Patrol Research Collective</strong>
+	</footer>
+	<!-- a <script> tag with reference to our main.js will go here next week-->
+</body>
+</html>
